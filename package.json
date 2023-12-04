@@ -25,7 +25,7 @@
   },
   "goBinary": {
     "name": "goreleaser-test",
-    "path": "./",
+    "path": "./.bin",
     "url": "https://github.com/asaidoguz/goreleaser-test/releases/download/{{version}}/goreleaser-test_{{platform}}_{{arch}}.tar.gz"
   }
 }
