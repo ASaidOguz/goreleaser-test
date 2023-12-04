@@ -26,6 +26,6 @@
   "goBinary": {
     "name": "goreleaser-test",
     "path": "./bin",
-    "url": "https://github.com/asaidoguz/goreleaser-test/releases/download/v{{version}}/go-cli_{{platform}}_{{arch}}.tar.gz"
+    "url": "https://github.com/asaidoguz/goreleaser-test/releases/download/v{{version}}/goreleaser-test_{{platform}}_{{arch}}.tar.gz"
   }
 }
