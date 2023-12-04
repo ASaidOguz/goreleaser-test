@@ -1,6 +1,6 @@
 {
   "name": "@asaidoguz/goreleaser-test",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "test package",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/ASaidOguz/goreleaser-test#readme",
   "dependencies": {
-    "@asaidoguz/goreleaser-test": "0.0.9",
+    "@asaidoguz/goreleaser-test": "0.0.10",
     "global": "^4.4.0",
     "go-npm": "^0.1.9"
   },
