@@ -1,6 +1,6 @@
 {
   "name": "@asaidoguz/goreleaser-test",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "test package",
   "main": "index.js",
   "scripts": {
@@ -19,13 +19,13 @@
   },
   "homepage": "https://github.com/ASaidOguz/goreleaser-test#readme",
   "dependencies": {
-    "@asaidoguz/goreleaser-test": "0.0.5",
+    "@asaidoguz/goreleaser-test": "0.0.6",
     "global": "^4.4.0",
     "go-npm": "^0.1.9"
   },
   "goBinary": {
     "name": "goreleaser-test",
     "path": "./bin",
-    "url": "https://github.com/asaidoguz/go-cli/releases/download/v{{version}}/go-cli_{{platform}}_{{arch}}.tar.gz"
+    "url": "https://github.com/asaidoguz/goreleaser-test/releases/download/v{{version}}/go-cli_{{platform}}_{{arch}}.tar.gz"
   }
 }
