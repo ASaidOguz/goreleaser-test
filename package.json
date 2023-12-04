@@ -24,7 +24,7 @@
     "go-npm": "^0.1.9"
   },
   "goBinary": {
-    "name": "go-cli",
+    "name": "goreleaser-test",
     "path": "./bin",
     "url": "https://github.com/asaidoguz/go-cli/releases/download/v{{version}}/go-cli_{{platform}}_{{arch}}.tar.gz"
   }
