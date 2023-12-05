@@ -1,6 +1,6 @@
 {
   "name": "@asaidoguz/goreleaser-test",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "test package",
   "main": "index.js",
   "scripts": {
@@ -18,13 +18,12 @@
   },
   "homepage": "https://github.com/ASaidOguz/goreleaser-test#readme",
   "dependencies": {
-    "@asaidoguz/goreleaser-test": "0.0.13",
+    "@asaidoguz/goreleaser-test": "0.0.14",
     "global": "^4.4.0",
     "@maple-leaf/go-npm": "^0.1.9"
   },
   "goBinary": {
     "name": "goreleaser-test",
     "path": "./.bin",
-    "url": "https://github.com/asaidoguz/goreleaser-test/releases/download/{{version}}/goreleaser-test_{{platform}}_{{arch}}.tar.gz"
-  }
+    "url": "https://github.com/asaidoguz/goreleaser-test/releases/download/{{version}}/goreleaser-test_{{version}}_{{platform}}_{{arch}}.tar.gz"}
 }
