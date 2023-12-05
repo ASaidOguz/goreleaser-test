@@ -1,10 +1,9 @@
 {
   "name": "@asaidoguz/goreleaser-test",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "test package",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "go-npm install",
     "preuninstall": "go-npm uninstall"
   },
@@ -19,9 +18,9 @@
   },
   "homepage": "https://github.com/ASaidOguz/goreleaser-test#readme",
   "dependencies": {
-    "@asaidoguz/goreleaser-test": "0.0.11",
+    "@asaidoguz/goreleaser-test": "0.0.12",
     "global": "^4.4.0",
-    "go-npm": "^0.1.9"
+    "@maple-leaf/go-npm": "^0.1.9"
   },
   "goBinary": {
     "name": "goreleaser-test",
